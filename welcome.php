@@ -11,7 +11,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Welcome - <?php echo $_SESSION['username']?></title>
+        <title>Welcome to.... - <?php echo $_SESSION['username']?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
@@ -50,9 +50,9 @@
     <body>
             <?php  ?>
         <h1>Welcome - <?php echo $_SESSION['username']?></h1>
-        <p>Hello <?php echo $_SESSION['username']?>, you have successfully created the loginsystem</p>
+        <p>Hello... <?php echo $_SESSION['username']?>, you have Successfully Created the login-system</p>
 
-        <p class="mb-0">Whenever you need to, be sure to logout <a href="/php/web_training/day-21_Assignment(login_system)/logout.php">using this link</a>.</p>
+        <p class="mb-0">Whenever you need to; be sure to logout <a href="/php/web_training/day-21_Assignment(login_system)/logout.php">using this link</a>.</p>
         <script src="" async defer></script>
     </body>
 </html>
